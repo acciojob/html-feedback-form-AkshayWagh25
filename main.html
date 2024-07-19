@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <form method="post"> 
+        <label for="name">Name </label>
+         <input id = "name" type="text" name="Name" minlength="5" maxlength="50" required placeholder="Your name">
+         <br>
+         <label for="portforlio">Portfolio</label>
+         <input id = portforlio type="url" placeholder="link"  name = "url" required>
+         <br>
 
+         <label for="favColor">Color</label>
+         <input id = "favColor" type="color" required>
+
+         <br>
+         <label for="likeness">Likeness</label>
+         <input id = "likeness"type="range" placeholder="range" name = "range" minlength="1" maxlength="100">
+    
+
+    </form>
+    
 </body>
-
 </html>
